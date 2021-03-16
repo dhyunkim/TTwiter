@@ -1,2 +1,2 @@
-# TTWiter
+# TTwiter
 Twiter Clone Project

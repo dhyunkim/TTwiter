@@ -65,8 +65,8 @@ import Link from 'next/link';
 
 import useInput from '../hooks/useInput';
 
-const LoginForm = ({setIsLoggedIn}) => {
-  const [id, onChangeId] = useInput('');
+const LoginForm = () => {
+  const dispatch = useDispatch();
   const [password, onChangePassword] = useInput('');
   const onSubmitForm = useCallback(() => {
     console.log({
